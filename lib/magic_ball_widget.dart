@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:magic_ball/gradient_container.dart';
 import 'package:magic_ball/style_text.dart';
+import 'dart:math';
 
 class MagicBallWidget extends StatefulWidget {
   @override
