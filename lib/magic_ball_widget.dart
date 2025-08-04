@@ -10,7 +10,7 @@ class MagicBallWidget extends StatefulWidget {
 }
 
 class _MagicBallState extends State<MagicBallWidget> {
-  String ballImage = "assets/images/ball_images/1.png";
+  var ballImage = "assets/images/ball_images/1.png";
   void shake() {
     setState(() {
       int randomIndex =
